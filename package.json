@@ -1,0 +1,25 @@
+{
+  "name": "giftify-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "lucide": "^0.468.0",
+    "lucide-static": "^0.468.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.9"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
